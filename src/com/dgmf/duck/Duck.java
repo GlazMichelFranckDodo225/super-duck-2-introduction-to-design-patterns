@@ -5,11 +5,11 @@ public abstract class Duck {
     // All the Ducks quack and swim. The Superclass manages
     // the Implementation Code.
     public void quack() {
-        System.out.println("I'm quacking ...");
+        System.out.println("I'm a Duck and I'm quacking ...");
     }
 
     public void swim() {
-        System.out.println("I'm swimming ...");
+        System.out.println("I'm a Duck and I'm swimming ...");
     }
 
     // Since all Duck-subtypes look different, the Display() Method
