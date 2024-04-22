@@ -15,5 +15,14 @@ public class RubberDuck extends Duck {
     private void displayRubberDuck() {
         System.out.println("I am a Rubber Duck, a Duck Subtype. ");
     }
+
+    @Override
+    public void quack() {
+        squeak();
+    }
+
+    private void squeak() {
+        System.out.println("I am a Rubber Duck, and I'm squeaking ...");
+    }
 }
 
