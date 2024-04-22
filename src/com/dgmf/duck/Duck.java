@@ -17,4 +17,9 @@ public abstract class Duck {
     // the Behavior of the display() Method for how it will appear on
     // the Screen.
     public abstract void display();
+
+    // Added the fly() Method ==> All Subclasses inherit the fly() Method
+    public void fly() {
+        System.out.println("I'm a Duck and I'm flying ...");
+    }
 }
