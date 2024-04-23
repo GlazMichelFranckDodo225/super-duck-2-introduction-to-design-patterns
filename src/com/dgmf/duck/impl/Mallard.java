@@ -9,6 +9,6 @@ public class Mallard extends Duck {
     }
 
     private void displayMallard() {
-        System.out.println("I am a Mallard, a Duck Subtype. ");
+        System.out.println("I am a Mallard, a Duck Subtype ...");
     }
 }

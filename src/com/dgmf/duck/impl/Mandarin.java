@@ -9,6 +9,6 @@ public class Mandarin extends Duck {
     }
 
     private void displayMandarin() {
-        System.out.println("I am a Mandarin, a Duck Subtype. ");
+        System.out.println("I am a Mandarin, a Duck Subtype ...");
     }
 }

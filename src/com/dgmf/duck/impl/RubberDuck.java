@@ -13,7 +13,7 @@ public class RubberDuck extends Duck {
     }
 
     private void displayRubberDuck() {
-        System.out.println("I am a Rubber Duck, a Duck Subtype. ");
+        System.out.println("I am a Rubber Duck, a Duck Subtype ...");
     }
 
     @Override
@@ -32,7 +32,7 @@ public class RubberDuck extends Duck {
 
     private void doNotFly() {
         // Redefine To Do Nothing
-        System.out.println("I'm a Rubber Duck and I don't fly ...");
+        System.out.println("I'm a Rubber Duck, and I don't fly ...");
     }
 
 
