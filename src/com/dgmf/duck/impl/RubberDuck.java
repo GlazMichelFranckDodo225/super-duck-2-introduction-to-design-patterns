@@ -24,5 +24,17 @@ public class RubberDuck extends Duck {
     private void squeak() {
         System.out.println("I am a Rubber Duck, and I'm squeaking ...");
     }
+
+    @Override
+    public void fly() {
+        doNotFly();
+    }
+
+    private void doNotFly() {
+        // Redefine To Do Nothing
+        System.out.println("I'm a Rubber Duck and I don't fly ...");
+    }
+
+
 }
 
