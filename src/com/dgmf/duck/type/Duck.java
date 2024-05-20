@@ -1,4 +1,4 @@
-package com.dgmf.duck.types;
+package com.dgmf.duck.type;
 
 // Duck Superclass that all other Duck Types inherit.
 public abstract class Duck {
