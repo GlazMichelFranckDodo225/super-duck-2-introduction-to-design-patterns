@@ -1,6 +1,6 @@
-package com.dgmf.duck.type.impl;
+package com.dgmf.duck.impl;
 
-import com.dgmf.duck.type.Duck;
+import com.dgmf.duck.Duck;
 
 // Each Duck Subtype is Responsible for Implementing the
 // Behavior of the "display()" Method for How It Will
