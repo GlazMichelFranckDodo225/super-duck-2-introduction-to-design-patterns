@@ -1,7 +1,7 @@
-import com.dgmf.duck.impl.DuckDecoy;
-import com.dgmf.duck.impl.Mallard;
-import com.dgmf.duck.impl.Mandarin;
-import com.dgmf.duck.impl.RubberDuck;
+import com.dgmf.duck.types.impl.DuckDecoy;
+import com.dgmf.duck.types.impl.Mallard;
+import com.dgmf.duck.types.impl.Mandarin;
+import com.dgmf.duck.types.impl.RubberDuck;
 
 public class Main {
     public static void main(String[] args) {

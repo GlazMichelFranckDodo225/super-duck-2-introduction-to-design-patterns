@@ -1,6 +1,6 @@
-package com.dgmf.duck.impl;
+package com.dgmf.duck.types.impl;
 
-import com.dgmf.duck.Duck;
+import com.dgmf.duck.types.Duck;
 
 public class DuckDecoy extends Duck {
     @Override
