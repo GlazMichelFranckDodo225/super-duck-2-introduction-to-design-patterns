@@ -4,9 +4,9 @@ package com.dgmf.duck;
 public abstract class Duck {
     // All the Ducks quack and swim. The Superclass manages
     // the Implementation Code.
-    public void quack() {
+    /*public void quack() {
         System.out.println("I'm a Duck and I'm quacking ...");
-    }
+    }*/
 
     public void swim() {
         System.out.println("I'm a Duck and I'm swimming ...");
@@ -19,7 +19,7 @@ public abstract class Duck {
     public abstract void display();
 
     // Added the fly() Method ==> All Subclasses inherit the fly() Method
-    public void fly() {
+    /*public void fly() {
         System.out.println("I'm a Duck and I'm flying ...");
-    }
+    }*/
 }

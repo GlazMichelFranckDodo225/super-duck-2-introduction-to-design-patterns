@@ -13,19 +13,19 @@ public class DuckDecoy extends Duck {
         System.out.println("I am a Duck Decoy, a Duck Subtype ...");
     }
 
-    @Override
+    /*@Override
     public void quack() {
         muteDuck();
-    }
+    }*/
 
     private void muteDuck() {
         System.out.println("I am a Duck Decoy, and I am a Mute Duck ...");
     }
 
-    @Override
+    /*@Override
     public void fly() {
         doNotFly();
-    }
+    }*/
 
     private void doNotFly() {
         // Redefine To Do Nothing

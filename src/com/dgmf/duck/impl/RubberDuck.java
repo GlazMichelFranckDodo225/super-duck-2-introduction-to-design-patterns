@@ -16,19 +16,19 @@ public class RubberDuck extends Duck {
         System.out.println("I am a Rubber Duck, a Duck Subtype ...");
     }
 
-    @Override
+    /*@Override
     public void quack() {
         squeak();
-    }
+    }*/
 
     private void squeak() {
         System.out.println("I am a Rubber Duck, and I'm squeaking ...");
     }
 
-    @Override
+    /*@Override
     public void fly() {
         doNotFly();
-    }
+    }*/
 
     private void doNotFly() {
         // Redefine To Do Nothing
